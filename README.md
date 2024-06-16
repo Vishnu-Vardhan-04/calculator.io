@@ -1,1 +1,1 @@
-# calculator.io
+# calculator
