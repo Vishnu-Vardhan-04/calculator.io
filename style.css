@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#calci{
+    background-color: black;
+    width: 500px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.btn{
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    color: skyblue;
+    background: #151617;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+#display{
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    outline: none;
+    font-size: 30px;
+    color: skyblue;
+    border: none;
+    background: transparent;
+    font-weight: bold;
+}
+.clear{
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    background: #151617;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.operator{
+    color: orange;
+}
+.solve{
+    background: orange;
+    color: black;
+}
